@@ -11,7 +11,7 @@ def OpenVideo():
 	fName = List[r]
 
 	if fName[-3:].lower() in ('mp4','avi','flv','rmbv','wmv'):
-		os.system( Path + '\\' + List[r])
+		os.system( '"' + Path + '\\' + List[r] + '"')
 	else:
 		print('非影片')	
 		
